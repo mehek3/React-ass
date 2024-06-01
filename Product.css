@@ -1,0 +1,16 @@
+.grid{
+    display:grid;
+    grid-template-columns: repeat(3,1fr);
+    gap:10px
+}
+
+.card{
+    display:flex;
+    border:1px solid black;
+    gap:10px
+}
+
+
+.card img{
+    width:100px;
+}
